@@ -22,6 +22,10 @@ The Connect 4 model defeated [Min-ji](https://papergames.io/en/r/SPQKyjKpFH/repl
 |      **Ramon (2050 Elo) — Draw**      |  **Carlito (2200 Elo, 400 sims) — Win**  |
 | ![Ramon](results/Ramon_2050_Draw.png) | ![Carlito](results/Carlito_2200_Win.png) |
 
+## See It in Action
+
+**[AlphaZero Coach](https://github.com/r9v/alphazero-coach)** — a full-stack coaching platform built on this engine. Play Connect 4 against AlphaZero in the browser while an LLM coach analyzes your moves in real time using the MCTS evaluation from this project.
+
 ## Quick Start
 
 **Requirements:** Python 3.8+, [PyTorch](https://pytorch.org/) with CUDA, a C compiler (for Cython extensions), and `triton` for `torch.compile` acceleration (`pip install triton`, or `pip install triton-windows` on Windows).
